@@ -1,0 +1,13 @@
+{
+  "name": "Phaser.Game",
+  "description": "Phaser Game",
+  "version": "1.0.0",
+  "dependencies": {
+    "phaser-ce": "2.10.0",
+    "typescript": "~2.6.2",
+    "uglify-es": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.4"
+  }
+}

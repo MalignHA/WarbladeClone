@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noEmitHelpers": true,
+        "noEmitOnError": false,
+        "target": "es6",
+        "lib": [
+            "es2016",
+            "dom",
+            "es2015.iterable"
+        ],
+        "outDir": "src/js",
+        "types": [
+            // add node as an option
+            "node"
+        ]
+    },
+    "files": [
+        "./node_modules/phaser-ce/typescript/phaser.d.ts"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

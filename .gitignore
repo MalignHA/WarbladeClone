@@ -1,0 +1,5 @@
+src/js/*.js
+node_modules/
+.vscode/
+*.zip
+game/
