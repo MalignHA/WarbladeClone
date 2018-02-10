@@ -5,7 +5,8 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "noEmitHelpers": true,
-        "noEmitOnError": false,
+        "noEmitOnError": true,
+        "skipLibCheck": true,
         "target": "es6",
         "lib": [
             "es2016",
@@ -19,7 +20,8 @@
         ]
     },
     "files": [
-        "./node_modules/phaser-ce/typescript/phaser.d.ts"
+        "./node_modules/phaser-ce/typescript/phaser.d.ts",
+        "./node_modules/@types/requirejs/index.d.ts"
     ],
     "include": [
         "src/**/*.ts"

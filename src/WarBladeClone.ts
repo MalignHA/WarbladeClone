@@ -2,7 +2,8 @@
 export class WarBladeClone {
 
     constructor() {
-        this.game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.CANVAS, 'content', { preload: this.preload, create: this.create });
+        this.game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.CANVAS, 'content', 
+        { preload: this.preload, create: this.create });
     }
 
     scaleRatio: number = window.devicePixelRatio / 3;

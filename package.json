@@ -1,16 +1,17 @@
 {
-  "name": "Phaser.Game",
-  "description": "Phaser Game",
-  "version": "1.0.0",
-  "dependencies": {
-    "phaser-ce": "2.10.0",
-    "typescript": "~2.6.2",
-    "uglify-es": "*"
-  },
-  "devDependencies": {
-    "@types/node": "^9.4.4"
-  },
-  "scripts": {
-    "build-game": "tsc & node src/r.js -o src/build.js  optimize=none & npx uglifyjs.cmd --compress --mangle --output game/bundle.js -- game/bundle.js"
-  }
+    "name": "PhaserGame",
+    "description": "Phaser Game",
+    "version": "1.0.0",
+    "dependencies": {
+        "phaser-ce": "2.10.0",
+        "typescript": "~2.6.2",
+        "uglify-es": "*"
+    },
+    "devDependencies": {
+        "@types/node": "^9.4.4",
+        "@types/requirejs": "^2.1.31"
+    },
+    "scripts": {
+        "build-game": "tsc && node src/r.js -o src/build.js  optimize=none && npx uglifyjs.cmd --compress --mangle --output game/bundle.js -- game/bundle.js"
+    }
 }
