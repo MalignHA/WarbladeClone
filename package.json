@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "@types/node": "^9.4.4"
+  },
+  "scripts": {
+    "build-game": "tsc & node src/r.js -o src/build.js  optimize=none & npx uglifyjs.cmd --compress --mangle --output game/bundle.js -- game/bundle.js"
   }
 }
