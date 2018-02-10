@@ -20,7 +20,7 @@
         ]
     },
     "files": [
-        "./node_modules/phaser-ce/typescript/phaser.d.ts",
+        "./node_modules/phaser-ce/typescript/phaser.comments.d.ts",
         "./node_modules/@types/requirejs/index.d.ts"
     ],
     "include": [
